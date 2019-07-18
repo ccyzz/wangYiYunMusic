@@ -126,7 +126,7 @@ nav>ul>li>a {
   height: 260px;
 }
 .playlist ul>li {
-  padding-right: 10px;
+  padding: 0 10px 10px 0;
   width: 33%;
   height: 50%;
   float: left;
@@ -158,6 +158,12 @@ nav>ul>li>a {
 }
 .margintop {
   margin-top: 20px;
+}
+.lastbottom {
+  position: relative;
+  margin-bottom: 52px;
+  height: 30px;
+  width: 100%;
 }
 footer {
   height: 52px;
