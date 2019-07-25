@@ -1,0 +1,10 @@
+nav>ul>li:first-child>a {
+  display: inline-block;
+  height: 40px;
+  border-bottom: none;
+}
+nav>ul>li:nth-child(2)>a {
+  display: inline-block;
+  height: 40px;
+  border-bottom: 2px solid #d5443c;
+}
