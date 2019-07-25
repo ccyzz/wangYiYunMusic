@@ -17,6 +17,11 @@ header .left, header .right {
   display: flex;
   align-items: center;
 }
+header .right>img {
+  position: absolute;
+  right: 20%;
+  top: 10px;
+}
 header .left {
   left: 0;
   padding-left: 5%;  
@@ -54,20 +59,25 @@ nav {
   position: fixed;
   top: 45px;
   left: 0;
-  padding: 0 20%;
+  padding: 0 10%;
+  text-align: center;
   font-size: 18px;
   z-index: 99999;
 }
 nav>ul {
   width: 100%;
+  height: 40px;
 }
 nav>ul>li {
   float: left;
-  width: 20%;
+  width: 33.3333%;
+  height: 40px;
   text-align: center;
   line-height: 40px;
 }
-nav>ul>li:first-child {
+nav>ul>li:first-child>a {
+  display: inline-block;
+  height: 40px;
   border-bottom: 2px solid #d5443c;
 }
 nav>ul>li>a {
@@ -76,7 +86,7 @@ nav>ul>li>a {
 .swiper-container{
   height: 140px;
   width: 100%;
-  margin-top: 90px !important;
+  margin-top: 86px !important;
 }
 .swiper-container .swiper-wrapper {
   height: 100%;
@@ -136,6 +146,9 @@ nav>ul>li>a {
   position: absolute;
   right: 16px;
   top: 0;
+}
+.playlist ul>li p {
+  font-size: 14px;
 }
 .playlist ul>li .right-mark img {
   height: 13px;
