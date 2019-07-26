@@ -8,3 +8,44 @@ nav>ul>li:nth-child(2)>a {
   height: 40px;
   border-bottom: 2px solid #d5443c;
 }
+.shipin {
+  height: 240px;
+  width: 100%;
+  margin-top: 86px;
+}
+.shipin video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.comments {
+  width: 100%;
+  height: 80px;
+  margin-top: 8px;
+  position: relative;
+}
+.comments .left {
+  position: absolute;
+  left: 4%;
+  top: 0;
+}
+.comments .right {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.comments img {
+  width: 20px;
+  height: 20px;
+}
+.comments ul>li {
+  text-align: center;
+  float: left;
+  width: 30%;
+}
+.comments ul>li>div {
+  font-size: 10px;
+  text-align: center;
+}
