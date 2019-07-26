@@ -106,7 +106,7 @@ nav>ul>li>a {
 .middle-nav {
   height: 80px;
   width: 100%;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #dfdfdf;
 }
 .middle-nav img {
   width: 50%;
@@ -144,11 +144,17 @@ nav>ul>li>a {
   height: 260px;
 }
 .playlist ul>li {
-  padding: 0 10px 10px 0;
-  width: 33%;
+  padding: 0 2% 10px 0;
+  width: 34%;
   height: 50%;
   float: left;
   position: relative;
+}
+.playlist ul>li:nth-child(3) {
+  width: 32%;
+}
+.playlist ul>li:nth-child(6) {
+  width: 32%;
 }
 .playlist ul>li .right-mark {
   position: absolute;
@@ -201,6 +207,9 @@ footer ul>li {
   width: 25%;
   height: 100%;
   text-align: center;
+}
+footer ul>li>a {
+  display: block;
 }
 footer ul>li p {
   color: #fff;
