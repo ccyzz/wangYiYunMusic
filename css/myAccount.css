@@ -1,0 +1,77 @@
+.logoWay {
+  width: 100%;
+  background: #f9eeed;
+  text-align: center;
+}
+.logoWay img {
+  width: 82px;
+  height: 82px;
+}
+.logoWay .logoBox {
+  width: 100%;
+  height: 175px;
+  margin-bottom: 30px;
+  padding-top: 63px;
+} 
+.logoWay .btnBox {
+  width: 100%;
+  text-align: center;
+  margin: 0 15%;
+}
+.logoWay .btnBox > button:first-child {
+  margin-bottom: 20px;
+}
+.logoWay button {
+  display: block;
+  height: 40px;
+  width: 70%;
+  background: #fff;
+  border: 1px solid #de464e;
+  border-radius: 22px;
+  font-size: 16px;
+  color: #de464e;
+}
+.otherWay {
+  background: #efefef;
+  width: 100%;
+  padding-top: 25px;
+  overflow: hidden;
+}
+.otherWay p:first-child {
+  font-size: 16px;
+  text-decoration: underline;  
+  color: #666;
+  text-align: center;
+}
+.others {
+  width: 100%;
+  padding: 0 10%;
+  margin-top: 140px;
+}
+.otherWay .leftLine, .otherWay .rightLine {
+  display: inline-block;
+  width: 33.3%;
+  height: 1px;
+  background: #c2c2c2;
+}
+.otherWay .middleText {
+  color: #999;
+  font-size: 14px;
+}
+.logoList {
+  width: 80%;
+  margin: 20px 0 50px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoList img {
+  width: 40px;
+  height: 40px;
+}
+.logoList p {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin-bottom: 50px;
+  text-align: center;
+}
